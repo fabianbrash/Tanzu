@@ -42,7 +42,7 @@ EXPOSE 8443
 ````
 
 
-## Runnig Jenkins as a docker container has to be setup in a special way so it can run docker commands inside of itself DinD
+## Running Jenkins as a docker container has to be setup in a special way so it can run docker commands inside of itself DinD
 
 ````
 docker network create jenkins
