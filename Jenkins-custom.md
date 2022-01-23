@@ -23,7 +23,7 @@ ENV JENKINS_OPTS --httpPort=8080 --httpsPort=8443 --httpsKeyStore=/var/lib/jenki
 EXPOSE 8443}}
 ````
 
-[jenkins.io](REF: https://issues.jenkins.io/browse/JENKINS-22448)
+[jenkins.io](https://issues.jenkins.io/browse/JENKINS-22448)
 
 
 ````
