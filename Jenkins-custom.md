@@ -4,6 +4,13 @@
 
 ### first added a password to my key
 
+### Note for keytool to work you need to make sure you install Java
+
+````
+sudo apt install default-jre
+
+````
+
 ````
 openssl rsa -des3 -in key.pem -out key.encrypted.pem
 
