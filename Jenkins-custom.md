@@ -88,6 +88,12 @@ EXPOSE 8443
 
 ````
 
+### Let's build the above image
+
+````
+docker build -t local/jenkins-blueocean:lts .
+````
+
 ### Now let's run our custom image
 
 ````
