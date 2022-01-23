@@ -4,7 +4,7 @@
 
 ### first added a password to my key
 
-### Note for keytool to work you need to make sure you install Java
+## Note for keytool to work you need to make sure you install Java
 
 ````
 sudo apt install default-jre
