@@ -7,6 +7,7 @@ tanzu management cluster create --ui
 tanzu cluster create tanzutest01 --plan=dev
 
 tanzu standalone-cluster create --ui
+tanzu standalone-cluster create tanzu-aws-01 --file /home/frjb/.config/tanzu/tkg/clusterconfigs/tanzu-aws-01.yaml -v 6
 tanzu login
 tanzu cluster kubeconfig get MY_CLUSTER_NAME_HERE --admin
 
